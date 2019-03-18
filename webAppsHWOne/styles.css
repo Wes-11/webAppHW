@@ -1,0 +1,108 @@
+H1 {
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto 100%;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  position: absolute;
+  margin: 0 32% auto;
+}
+#item {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-width: 2px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.grid div span {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left:  -0;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+}
+.one {
+  background-image: url("C:/Users/Wes/Downloads/HW1pics/sun.png");
+  background-size: 80%;
+}
+.two {
+  background-image: url("C:/Users/Wes/Downloads/HW1pics/buildings.png");
+  background-size: 100%;
+}
+.three {
+  background-image: url("C:/Users/Wes/Downloads/HW1pics/girl.png");
+  background-size: 30%;
+}
+.four {
+  background-image: url("C:/Users/Wes/Downloads/HW1pics/boy.png");
+  background-size: 40%;
+}
+.five {
+  background-image: url("C:/Users/Wes/Downloads/HW1pics/boy.png");
+  background-size: 40%;
+}
+.six {
+  background-image: url("C:/Users/Wes/Downloads/HW1pics/spaceship.png");
+  background-size: 58%;
+}
+.seven {
+  background-image: url("C:/Users/Wes/Downloads/HW1pics/robot.png");
+  background-size: 90%;
+}
+.eight {
+  background-image: url("C:/Users/Wes/Downloads/HW1pics/girl.png");
+  background-size: 30%;
+}
+#item.nine {
+  background-position: 10px;
+  background-image: url("C:/Users/Wes/Downloads/HW1pics/flowers.png");
+  background-size: 140%;
+}
+#item.ten {
+  background-position: 0px 0px;
+  background-image: url("C:/Users/Wes/Downloads/HW1pics/rainbow.png");
+  background-size: 180%;
+}
+.eleven {
+  background-image: url("C:/Users/Wes/Downloads/HW1pics/trophy.png");
+  background-size: 90%;
+}
+#item.twelve {
+  background-position: 20px;
+  background-image: url("C:/Users/Wes/Downloads/HW1pics/tea.png");
+  background-size: 135%;
+}
+.nav{
+  border-top-style: solid;
+  border-top-color: green;
+  border-top-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: green;
+  border-bottom-width: 5px;
+  text-align: center;
+  background-color: white;
+}
+a{
+  padding: 5px;
+}
+a:link{
+  color: red;
+}
+a:hover{
+  background-color: grey;
+}
+a:visited {
+  color: magenta;
+}
+.logo{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 10px;
+}
